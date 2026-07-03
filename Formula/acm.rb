@@ -1,25 +1,25 @@
 class Acm < Formula
   desc "Agent Config Manager for shell-scoped AI agent profiles"
   homepage "https://github.com/dotaikit/acm"
-  version "0.1.5"
+  version "0.1.6"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/dotaikit/acm/releases/download/v0.1.5/acm_0.1.5_darwin_arm64.tar.gz"
-      sha256 "461553c8d019573b067f79dc76bb98cf1f87f9b539273371979fac3d4b815e5d"
+      url "https://github.com/dotaikit/acm/releases/download/v0.1.6/acm_0.1.6_darwin_arm64.tar.gz"
+      sha256 "2b22eaf8d6b224bdeb37612ebe2b38ae4c059c2ac4ba472f3039f2f2a91938fc"
     else
-      url "https://github.com/dotaikit/acm/releases/download/v0.1.5/acm_0.1.5_darwin_amd64.tar.gz"
-      sha256 "fadb5bb06c9c7bdeabcdcc48635f4f9b258e43995b54579631d588464d1c57fc"
+      url "https://github.com/dotaikit/acm/releases/download/v0.1.6/acm_0.1.6_darwin_amd64.tar.gz"
+      sha256 "c95cf05921ee7657184c455cf725d22442c3b0cf83337a65ce491e0809b6c87f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/dotaikit/acm/releases/download/v0.1.5/acm_0.1.5_linux_arm64.tar.gz"
-      sha256 "5f971361ae40b6faa3ff28cb0a3f96c110fdc4dd9be517ac55574946421666bc"
+      url "https://github.com/dotaikit/acm/releases/download/v0.1.6/acm_0.1.6_linux_arm64.tar.gz"
+      sha256 "c20528f79e598607ec6fd325d00db008135c7f196849025a5ae148ff760a4576"
     else
-      url "https://github.com/dotaikit/acm/releases/download/v0.1.5/acm_0.1.5_linux_amd64.tar.gz"
-      sha256 "347306c46bfdc3831058cac4864246b511ea4cec69930ed4f8fd11c112fe30b4"
+      url "https://github.com/dotaikit/acm/releases/download/v0.1.6/acm_0.1.6_linux_amd64.tar.gz"
+      sha256 "29ad7b82daad32fd02f083da203541f930f68bdd7e21e8c902a3b3cbdb14bfae"
     end
   end
 
